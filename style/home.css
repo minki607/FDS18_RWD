@@ -137,8 +137,6 @@
   padding: 0;
 }
 
-/*에디아 뉴스*/
-
 /* 이디야 뉴스 섹션 */
 .ediya-news {
   background-color: var(--theme-primary);
@@ -180,7 +178,6 @@
   display:flex;
   flex-flow: row nowrap;
   justify-content: center;
-  padding: 85px 0;
 
 }
 
@@ -191,6 +188,8 @@
 .ediya-inform-container{
   width: 400px;
 }
+
+
 
 
 
