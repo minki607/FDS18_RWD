@@ -1,0 +1,52 @@
+
+.brand {
+  width: 180px;
+}
+
+@media all and (min-width: 768px) {
+  /* 데스크탑 헤더 */
+
+  .is-open-menu,
+  .is-close-menu {
+    display: none;
+  }
+
+  .app-header{
+    width: 780px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .app-navigation {
+    display: flex;
+    align-items: center;
+  }
+  .app-navigation ul {
+    display: flex;
+    flex-flow: row nowrap;
+
+  }
+
+  .app-navigation a {
+    display: block;
+    margin: 8px;
+  }
+  
+}
+
+@media all and (max-width: 767px){
+
+  .is-open-menu,
+  .is-close-menu {
+    display: block;
+  }
+    .app-header {
+      z-index: 999;
+      position: absolute;
+      height: 100%;
+      width: 100vw;;
+      background-color: rgba(78, 76, 238, 0.747);
+      
+    }
+}
