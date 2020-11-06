@@ -379,6 +379,13 @@ details[open] .award-subject::after {
   background-image: url(../images/icon-arrow-up.svg);
 }
 
+.award-subject b {
+  font-size: 1.2rem;
+  font-weight: 400;
+  width: 25px;
+  display: inline-block;
+  background-color: pink;
+}
 /* summary 내 수상 "월"을 위한 마크업 (b 요소) */
 .award-subject b {
   font-size: 12px;
